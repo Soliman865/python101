@@ -1,17 +1,11 @@
-# Filename: EX03_if_elif_else_comments_only.py
-# EX03 - if / elif / else (COMMENTS ONLY)
-#
-# Goal:
-#   Ask the user for a temperature in Celsius (int).
-#   Print:
-#     temp >= 25  -> "Hot"
-#     temp >= 15  -> "Warm"
-#     temp >= 5   -> "Cool"
-#     else        -> "Cold"
-#
-# Rules:
-#   - Convert input to int
-#   - Use if / elif / else
-#
-# Hint:
-#   temp = int(input("Temp: ").strip())
+# In Python, the input() function always returns a string (text), even if you type a number. You cannot compare a string to an integer using >=.
+    t = int(input("Give me a temperature in Celsius "))
+
+    if t >= 25:
+        print("Hot")
+    elif t >= 15:
+        print("Warm")
+    elif t >= 5:
+        print("Cool")
+    else:
+        print("Cold")
