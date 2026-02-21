@@ -1,5 +1,6 @@
 choice = input("Choose a/b/c/q: ").strip().lower()
 while choice != "q":
+    print("Goodbye")
     if choice == "a":
         print("hello")
     elif choice == "b":
