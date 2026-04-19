@@ -1,35 +1,10 @@
-# ============================================================
-# EXERCISE 3: Functions that Return Values
-# ============================================================
-# TOPIC: Using "return" to send a result back
-# DIFFICULTY: ⭐⭐ (Easy-Medium)
-#
-# A function with "return" gives you a value you can USE:
-#
-#   result = my_function(5)
-#   print(result)
-#
-# Don't just print inside the function — RETURN the value!
-# ============================================================
 
-# ------------------------------------------------------------
-# TASK 1
-# Define a function called "subtract" that takes TWO
-# parameters "a" and "b" and RETURNS a - b.
-#
-# Then:
-#   result1 = subtract(10, 3)   → should be 7
-#   result2 = subtract(50, 25)  → should be 25
-# Print both results.
-# ------------------------------------------------------------
+    total = a - b
+    return total         
 
-# 👉 Write your function here:
+answer = subtract(7, 3)
+print("7 - 3 =", answer)
 
-
-# 👉 Call it and print the results:
-
-
-# ------------------------------------------------------------
 # TASK 2
 # Define a function called "circle_area" that takes the
 # RADIUS of a circle and RETURNS its area.
