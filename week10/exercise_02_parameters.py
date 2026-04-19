@@ -1,58 +1,19 @@
-# ============================================================
-# EXERCISE 2: Functions with Parameters
-# ============================================================
-# TOPIC: Passing arguments into functions
-# DIFFICULTY: ⭐⭐ (Easy-Medium)
-#
-# Remember: parameters go inside the parentheses of "def".
-# Arguments are the actual values you pass when you call it.
-#
-#   def say_hi(name):       ← "name" is the PARAMETER
-#       print("Hi", name)
-#
-#   say_hi("Alice")         ← "Alice" is the ARGUMENT
-# ============================================================
+def introduce(name, age):
+    print("My name is",name, "and I am", age, "years old")
 
-# ------------------------------------------------------------
-# TASK 1
-# Define a function called "introduce" that takes TWO
-# parameters: "name" and "age".
-# It should print something like:
-#   "My name is Alex and I am 12 years old."
-#
-# Then call it with:
-#   - your own name and age
-#   - a friend's name and age
-# ------------------------------------------------------------
-
-# 👉 Write your function here:
+introduce("Soliman", "12")
+introduce("Devansh","12")
 
 
-# 👉 Call it twice here:
+
+def print_area(length, width):
+    print("The area is",length*width)
+
+print_area("Length", "width")
 
 
-# ------------------------------------------------------------
-# TASK 2
-# Define a function called "print_rectangle" that takes
-# TWO parameters: "width" and "height".
-# It should print a rectangle made of "#" characters.
-#
-# Example — print_rectangle(4, 3) should print:
-#   ####
-#   ####
-#   ####
-#
-# Hint: use a for loop and string multiplication
-# Hint: print("#" * width)  prints "####" when width is 4
-# ------------------------------------------------------------
-
-# 👉 Write your function here:
 
 
-# 👉 Test it with at least 3 different width/height values:
-
-
-# ------------------------------------------------------------
 # TASK 3
 # Define a function called "temperature_message" that takes
 # ONE parameter: "temp" (a number in Celsius).
