@@ -1,40 +1,7 @@
-# ============================================================
-# EXERCISE 4: Default Parameters & Logic Inside Functions
-# ============================================================
-# TOPIC: Default argument values, if/else inside functions
-# DIFFICULTY: ⭐⭐⭐ (Medium)
-#
-# REMINDER — default parameter syntax:
-#
-#   def greet(name, greeting="Hello"):
-#       print(greeting, name)
-#
-#   greet("Sam")             → "Hello Sam"    (uses default)
-#   greet("Sam", "Howdy")    → "Howdy Sam"    (overrides default)
-# ============================================================
+def repeat_word(word, times=3):
+     print(word*times)
+repeat_word("haha")
 
-# ------------------------------------------------------------
-# TASK 1
-# Define a function called "repeat_word" that takes:
-#   - "word"  (a string)
-#   - "times" (an integer, DEFAULT value = 3)
-#
-# It should RETURN a string with the word repeated that many
-# times, separated by spaces.
-#
-# Expected results:
-#   repeat_word("ha")        → "ha ha ha"
-#   repeat_word("yes", 5)    → "yes yes yes yes yes"
-#   repeat_word("no", 1)     → "no"
-#
-# Hint: " ".join(["ha", "ha", "ha"])  gives "ha ha ha"
-# Hint: [word] * times  gives a list with word repeated
-# ------------------------------------------------------------
-
-# 👉 Write your function here:
-
-
-# 👉 Test all three cases:
 
 
 # ------------------------------------------------------------
